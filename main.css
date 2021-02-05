@@ -180,7 +180,24 @@ body {
 
 
   }
+
+  i {
+    color: #e44c65;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+  }
+
+  .service {
+    text-align: center;
+  }
+
+  .container {
+    align-content: center;
+    margin-top: 50px;
     
+  }
+  
   
   
   
@@ -239,6 +256,8 @@ label {
   color: white;
 }
 
+
+
 /*Desktop */
 @media only screen and (min-width: 992px) {
     #ac_logo {height: 80px;
@@ -251,6 +270,23 @@ label {
                     
                     
                 }
+
+                .service {
+                  display: inline-block;
+                  width: 200px;
+                  border-width: 1px;
+                  border-color:  #e44c65;
+                  padding-left: 0;
+                  margin-right: 20px;
+                  align-items: center;
+                }
+                .container {
+                  float: center;
+                  margin-left: 60px;
+                  
+
+                }
+            
             }
   
         
