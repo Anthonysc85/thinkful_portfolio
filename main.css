@@ -160,6 +160,7 @@ body {
   .item {
     flex: 1;
     margin: 10px;
+    margin-top: 40px;
   }
   
   .item-double {
@@ -196,6 +197,13 @@ body {
     align-content: center;
     margin-top: 50px;
     
+  }
+
+  .contact-links { 
+    margin-left: 30%;
+    text-decoration: none;
+    color:  #e44c65;
+    align-items: center;
   }
   
   
@@ -280,11 +288,19 @@ label {
                   margin-right: 20px;
                   align-items: center;
                 }
-                .container {
+                .container-2 {
                   float: center;
-                  margin-left: 60px;
                   
+                }
 
+                .actions {
+                  float: center;
+                  margin-left: -10px;
+          
+              }
+
+                .contact-links {
+                  margin-left: 40%;
                 }
             
             }
@@ -358,6 +374,7 @@ img {
    background-color: #e44c65;
    border: none;
    color: white;
+   text-align: center;
 }
 
 /* Footer */
