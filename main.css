@@ -173,6 +173,13 @@ body {
     font-size: 0.9em;
     margin: 0 0.25em;
   }
+
+  .link {
+    text-decoration: none;
+    color:  #e44c65;
+
+
+  }
     
   
   
@@ -225,6 +232,11 @@ body {
    background-color: #e44c65;
    border: none;
    color: white;
+   
+}
+
+label {
+  color: white;
 }
 
 /*Desktop */
