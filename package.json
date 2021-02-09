@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devserver": "live-server --browser=Google Chrome"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Anthonysc85/thinkful_portfolio/issues"
   },
-  "homepage": "https://github.com/Anthonysc85/thinkful_portfolio#readme"
+  "homepage": "https://github.com/Anthonysc85/thinkful_portfolio#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
